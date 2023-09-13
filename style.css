@@ -1,4 +1,7 @@
-
+.body10{
+  background-color: rgb(226, 226, 226);
+    background-size: cover;
+}
 
 .nav{ 
     position: fixed;
@@ -228,8 +231,31 @@ border-radius: 10px;
         }
 
 
+.footer{
+    padding-top: calc(var(--section-padding)/2);
+    padding-bottom: calc(var(--section-padding)/2);
+    background-color:  rgb(37, 42, 52);
+    position: relative;
+    color: white;
+    text-align: center;
+}
 
 
+
+.footer::before{
+    content:"" ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0 / 70%);
+}
+
+
+.footer.container{
+    position: relative;
+}
 
 
 
@@ -2452,18 +2478,18 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
-.bird{
+.pet-barn{
     margin-top: 150px;
     margin-left: 50px;
 }
 
-.fish{
+.goofys-pet-shop{
     margin-top: 150px;
     margin-left: 50px;
 }
 
-.cards{
-    margin-top: 50px;
+.cards1{
+    margin-top: 30px;
     display: flex;
   justify-content: space-evenly;
   
@@ -2509,7 +2535,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .h1-pet-holic{
         font-size: 55px; 
-        margin-top: 20px;
+        margin-top: 25px;
         color: white;
     } 
     
@@ -2531,9 +2557,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-left: 25px;
         background-color: rgb(37, 42, 52);
     }
-    .h1-birds{
-        font-size: 90px; 
-        margin-top: 4px;
+    .h1-pet-barn{
+        font-size: 55px; 
+        margin-top: 23px;
         color: white;
     } 
     
@@ -2555,9 +2581,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-left: 25px;
         background-color: rgb(37, 42, 52);
     }
-    .h1-fish{
-        font-size: 90px; 
-        margin-top: 4px;
+    .h1-goofys-pet-shop{
+        font-size: 50px; 
+        margin-top: 3px;
         color: white;
     } 
     
@@ -2649,20 +2675,537 @@ transition: all 0.7s;
     transition: all 0.7s; 
     }
 
-    .h1-birds{
+    .h1-pet-barn{
         text-align: center;
-        font-size: 85px;
-        margin-top: -2.5px;
+        font-size: 50px;
+        margin-top: 17px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: rgb(37, 42, 52); 
         transition: all 0.7s; 
         }
 
-        .h1-fish{
+        .h1-goofys-pet-shop{
             text-align: center;
-            font-size: 85px;
-            margin-top: -2.5px;
+            font-size: 45px;
+            margin-top: -4px;
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: rgb(37, 42, 52); 
             transition: all 0.7s; 
             }
+
+
+
+
+
+
+
+
+
+
+            
+.card1{
+    background-color: rgb(214, 214, 214);
+    border:5px black solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card2{
+    background-color: rgb(214, 214, 214);
+    border:5px black solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card3{
+    background-color: rgb(214, 214, 214);
+    border:5px black solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card4{
+    background-color: rgb(214, 214, 214);
+    border:5px black solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    transition: all 0.7s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.pet-house{
+    margin-top: 150px;
+ 
+}
+
+.the-pet-lobby{
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.zue{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.pet-planet{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.cards2{
+    margin-top: 50px;
+    display: flex;
+  justify-content: space-evenly;
+  margin-top: -70px;
+  
+}
+
+.card1:hover{
+    height: 400px;
+    width: 330px;
+    margin-top: 100px;
+    background-color: white;
+    .photo1{
+        height: 220px;
+    width: 330px;
+    }
+    .h1-photo1{
+        height: 120px;
+        width: 275px; 
+        margin-top: 20px;
+        margin-left: 25px;
+        background-color: rgb(37, 42, 52);
+    }
+    .h1-pet-house{
+        font-size: 52px; 
+        margin-top: 26px;
+        color: white;
+    } 
+    
+}
+
+.card2:hover{
+    height: 400px;
+    width: 330px;
+    margin-top: 100px;
+    background-color: white;
+    .photo2{
+        height: 220px;
+    width: 330px;
+    }
+    .h1-photo2{
+        height: 120px;
+        width: 275px; 
+        margin-top: 20px;
+        margin-left: 25px;
+        background-color: rgb(37, 42, 52);
+    }
+    .h1-the-pet-lobby{
+        font-size: 52px; 
+       
+        color: white;
+    } 
+    
+}
+
+
+.card3:hover{
+    height: 400px;
+    width: 330px;
+    margin-top: 100px;
+    background-color: white;
+    .photo3{
+        height: 220px;
+    width: 330px;
+    }
+    .h1-photo3{
+        height: 120px;
+        width: 275px; 
+        margin-top: 20px;
+        margin-left: 25px;
+        background-color: rgb(37, 42, 52);
+    }
+    .h1-zue{
+        font-size: 55px; 
+        margin-top: 23px;
+        color: white;
+    } 
+    
+}
+
+
+.card4:hover{
+    height: 400px;
+    width: 330px;
+    margin-top: 100px;
+    background-color: white;
+    .photo4{
+        height: 220px;
+    width: 330px;
+    }
+    .h1-photo4{
+        height: 120px;
+        width: 275px; 
+        margin-top: 20px;
+        margin-left: 25px;
+        background-color: rgb(37, 42, 52);
+    }
+    .h1-pet-planet{
+        font-size: 50px; 
+        margin-top: 26px;
+        color: white;
+    } 
+    
+}
+
+
+.photo1{
+border-radius: 4px;
+transition: all 0.7s;
+}
+
+.photo2{
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+
+.photo3{
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+
+.photo4{
+    border-radius: 4px;
+    transition: all 0.7s;
+}
+
+
+
+.h1-photo1{
+    border: 3px black solid;
+    border-radius: 10px; 
+    height: 100px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 22px;
+    transition: all 0.7s;
+    text-decoration: none; 
+}
+
+.h1-photo2{
+    border: 3px black solid;
+    border-radius: 10px; 
+    height: 100px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 22px;
+    transition: all 0.7s;
+}
+
+.h1-photo3{
+    border: 3px black solid;
+    border-radius: 10px; 
+    height: 100px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 22px;
+    transition: all 0.7s;
+}
+
+.h1-photo4{
+    border: 3px black solid;
+    border-radius: 10px; 
+    height: 100px;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 22px;
+    transition: all 0.7s;
+    
+}
+
+.h1-pet-house{
+text-align: center;
+font-size: 50px;
+margin-top: 17px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(37, 42, 52); 
+transition: all 0.7s;
+
+}
+
+
+
+.h1-the-pet-lobby{
+    text-align: center;
+    font-size: 45px;
+    margin-top: -7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(37, 42, 52); 
+    transition: all 0.7s; 
+    }
+
+    .h1-zue{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 16px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(37, 42, 52); 
+        transition: all 0.7s; 
+        }
+
+        .h1-pet-planet{
+            text-align: center;
+            font-size: 45px;
+            margin-top: 15px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(37, 42, 52); 
+            transition: all 0.7s; 
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .footer {
+                text-align: center;
+                font-size: 0.9rem;
+                font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+              }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              .serpz{
+                margin-top: 100px;
+                margin-left: 90px;
+                color:rgb(37, 42, 52);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 40px;
+            }
+
+
+
+            .col0{
+                margin-left: 70px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+.gh{
+    margin-left: 300px;
+}
+
+              .container{
+                margin-top: 20px;
+                margin-left: 20px;
+                display: flex;
+                flex-direction: row;
+              }
+
+              .col{
+                margin-left: 70px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+         
+            }
+
+
+            .row{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+              }
+
+
+              
+              .container1{
+                margin-top: 20px;
+                margin-left: 20px;
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(242, 242, 242);
+                width: 1300px;
+              }
+
+
+
+          
+
+
+            .col1{
+                margin-left: 70px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+            .col2{
+                margin-left: 1500px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+
+            .col3{
+                margin-left: 90px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+            .col4{
+                margin-left: 90px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+            .col5{
+                margin-left: 90px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+            
+
+
+
+
+
+
+
+
+              .row1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+              }
+
+
+
+
+
+
+
+              .container2{
+                margin-top: 20px;
+                margin-left: 20px;
+                display: flex;
+                flex-direction: row;
+              }
+
+              .col2{
+                margin-left: 70px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 10px;
+            }
+
+
+            .row2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+              }
