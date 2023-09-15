@@ -3209,3 +3209,1550 @@ transition: all 0.7s;
                 flex-direction: row;
                 justify-content: space-evenly;
               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cart{
+    width: 230px;
+    height: 50px;
+border: 3px rgb(234, 234, 234) solid;
+border-radius: 5px;
+margin-top: 7px;
+margin-left: 180px;
+transition: all 0.6s;
+}
+
+
+
+.h2-cart{
+    color:rgb(234, 234, 234);
+    margin-left: 60px;
+    transition: all 0.6s;
+}
+
+
+.bi-cart3{
+    color:rgb(234, 234, 234);
+    margin-top: -100px
+}
+
+
+
+.cart:hover{
+ background-color: rgb(234, 234, 234);
+
+ .h2-cart{
+    color: rgb(37, 42, 52);
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ordar{
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-evenly;
+    margin-left: -35px;
+}
+
+
+
+
+.ordar1{
+ width: 220px;
+ height: 300px;
+ border: 4px black solid;
+ border-radius: 5px;
+ transition: all 0.6s;
+}
+
+
+
+.ordar2{
+ width: 220px;
+ height: 300px;
+ border: 4px black solid;
+ border-radius: 5px;    
+}
+
+
+
+.ordar3{
+ width: 220px;
+ height: 300px;
+ border: 4px black solid;
+ border-radius: 5px;    
+}
+
+
+.ordar4{
+ width: 220px;
+ height: 300px;
+ border: 4px black solid;
+ border-radius: 5px;    
+}
+
+
+.ordar5{
+    width: 220px;
+    height: 300px;
+    border: 4px black solid;
+    border-radius: 5px;    
+   }
+   
+
+
+
+   .ordar1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .add1{
+        background-color: rgb(37, 42, 52);
+    }
+
+    .h2-add1{
+        color: rgb(234, 234, 234);
+    }
+   }
+  
+
+
+
+
+   .ordar2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .add2{
+        background-color: rgb(37, 42, 52);
+    }
+
+    .h2-add2{
+        color: rgb(234, 234, 234);
+    }
+   }
+  
+
+
+
+   .ordar3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .add3{
+        background-color: rgb(37, 42, 52);
+    }
+
+    .h2-add3{
+        color: rgb(234, 234, 234);
+    }
+   }
+  
+
+
+
+   .ordar4:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .add4{
+        background-color: rgb(37, 42, 52);
+    }
+
+    .h2-add4{
+        color: rgb(234, 234, 234);
+    }
+   }
+  
+
+
+
+   .ordar5:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .add5{
+        background-color: rgb(37, 42, 52);
+    }
+
+    .h2-add5{
+        color: rgb(234, 234, 234);
+    }
+   }
+  
+
+
+
+
+   .ord1-img{
+    border-radius: 1px;
+   }
+
+
+
+.name1{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name1{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price1{
+    margin-left: 17px;
+   }
+
+
+   .h3-price1{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add1{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add1{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   .ord1-img{
+    border-radius: 1px;
+   }
+
+
+
+.name1{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name1{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price1{
+    margin-left: 17px;
+   }
+
+
+   .h3-price1{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add1{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add1{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   .ord2-img{
+    border-radius: 1px;
+   }
+
+
+
+.name2{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name2{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price2{
+    margin-left: 17px;
+   }
+
+
+   .h3-price2{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add2{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add2{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   .ord3-img{
+    border-radius: 1px;
+   }
+
+
+
+.name3{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name3{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price3{
+    margin-left: 17px;
+   }
+
+
+   .h3-price3{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add3{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add3{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   .ord4-img{
+    border-radius: 1px;
+   }
+
+
+
+.name4{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name4{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price4{
+    margin-left: 17px;
+   }
+
+
+   .h3-price4{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add4{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add4{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   .ord5-img{
+    border-radius: 1px;
+   }
+
+
+
+.name5{
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+
+
+   .h2-name5{
+    color:rgb(37, 42, 52);
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .price5{
+    margin-left: 17px;
+   }
+
+
+   .h3-price5{
+    color: rgb(167, 167, 167);
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+
+
+
+   .add5{
+    width: 180px;
+    height: 40px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: all 0.6s;
+   }
+
+
+   .h2-add5{
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 25px;
+    transition: all 0.6s;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .ordar20{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    margin-left: -35px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ordar6{
+    width: 220px;
+    height: 300px;
+    border: 4px black solid;
+    border-radius: 5px;
+    transition: all 0.6s;
+   }
+   
+   
+   
+   .ordar7{
+    width: 220px;
+    height: 300px;
+    border: 4px black solid;
+    border-radius: 5px;    
+   }
+   
+   
+   
+   .ordar8{
+    width: 220px;
+    height: 300px;
+    border: 4px black solid;
+    border-radius: 5px;    
+   }
+   
+   
+   .ordar9{
+    width: 220px;
+    height: 300px;
+    border: 4px black solid;
+    border-radius: 5px;    
+   }
+   
+   
+   .ordar10{
+       width: 220px;
+       height: 300px;
+       border: 4px black solid;
+       border-radius: 5px;    
+      }
+      
+   
+   
+   
+      .ordar6:hover{
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       .add6{
+           background-color: rgb(37, 42, 52);
+       }
+   
+       .h2-add6{
+           color: rgb(234, 234, 234);
+       }
+      }
+     
+   
+   
+   
+   
+      .ordar7:hover{
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       .add7{
+           background-color: rgb(37, 42, 52);
+       }
+   
+       .h2-add7{
+           color: rgb(234, 234, 234);
+       }
+      }
+     
+   
+   
+   
+      .ordar8:hover{
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       .add8{
+           background-color: rgb(37, 42, 52);
+       }
+   
+       .h2-add8{
+           color: rgb(234, 234, 234);
+       }
+      }
+     
+   
+   
+   
+      .ordar9:hover{
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       .add9{
+           background-color: rgb(37, 42, 52);
+       }
+   
+       .h2-add9{
+           color: rgb(234, 234, 234);
+       }
+      }
+     
+   
+   
+   
+      .ordar10:hover{
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       .add10{
+           background-color: rgb(37, 42, 52);
+       }
+   
+       .h2-add10{
+           color: rgb(234, 234, 234);
+       }
+      }
+     
+   
+   
+   
+   
+      .ord6-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .name6{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name6{
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price6{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price6{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add6{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add6{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      .ord6-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .name6{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name6{
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price6{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price6{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add6{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add6{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      .ord7-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .name7{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name7{
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price7{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price7{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add7{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add7{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      .ord8-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .name8{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name8{
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price8{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price8{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add8{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add8{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      .ord9-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .name9{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name9{
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price9{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price9{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add9{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 20px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add9{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+      .ord10-img{
+       border-radius: 1px;
+      }
+   
+   
+   
+   .nam10{
+       margin-top: 15px;
+       margin-left: 17px;
+   }
+   
+   
+   
+      .h2-name10{
+        margin-left: 17px;
+       color:rgb(37, 42, 52);
+       text-align: left;
+       font-size: 23px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .price10{
+       margin-left: 17px;
+      }
+   
+   
+      .h3-price10{
+       color: rgb(167, 167, 167);
+       text-align: left;
+       font-size: 18px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+   
+   
+   
+   
+      .add10{
+       width: 180px;
+       height: 40px;
+       border: 3px rgb(37, 42, 52) solid;
+       border-radius: 20px;
+       margin-top: 5px;
+       margin-left: 15px;
+       transition: all 0.6s;
+      }
+   
+   
+      .h2-add10{
+       text-align: center;
+       color: rgb(37, 42, 52);
+       font-size: 25px;
+       transition: all 0.6s;
+      }
+   
+
+
+
+
+
+
+
+
+
+
+      .img-top{
+        margin-top: 100px;
+       margin-left: 30px;
+      }
+
+      .img-up{
+        border: 2px black solid;
+        border-radius: 5px;
+      }
+
+
+      .h1-top{
+margin-top: -40px;
+margin-left: 30px;
+      }
+
+
+    .h1-up{
+        color: rgb(37, 42, 52);
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+
+
+    .price-top{
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+
+    .price-up{
+        color:rgb(167, 167, 167);
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;  
+
+    }
+
+
+
+
+    .details-top{
+        margin-top: -650px;
+        margin-left: 1270px;
+    }
+
+
+
+    .details-up{
+        color: rgb(37, 42, 52);
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 70px;
+    }
+
+
+
+.d-h1{
+    margin-top: -40px;
+    margin-left: 980px;
+    width: 518px;
+}
+
+
+
+
+.dd-h1{
+    color: rgb(37, 42, 52);
+        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+}
+
+
+.d-p{
+    margin-top: -20px;
+    margin-left: 630px;
+width: 850px;
+}
+
+
+.dd-pp{
+    color: rgb(37, 42, 52);
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: right; 
+}
+
+
+
+
+.add90{
+    width: 250px;
+    height: 60px;
+    border: 3px rgb(37, 42, 52) solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 55px;
+    transition: all 0.6s;
+}
+
+
+
+.h2-add90{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 30px;
+    transition: all 0.6s;
+    margin-top: 3px;
+    margin-left: -0px;
+}
+
+
+
+.add90:hover{
+    background-color: rgb(37, 42, 52);
+
+    .h2-add90{
+        color: rgb(234, 234, 234);
+    }
+}
+
+
+
+
+
+.add-but{
+    background: none;
+    border: none;
+}
+
+
+
+
+
+.food-top{
+    width: 170px;
+    height: 40px;
+    border: 3px rgb(8, 217, 214) solid;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 95px;
+    transition: all 0.6s;
+}
+
+
+.h2-food{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 30px;
+    transition: all 0.6s;
+    margin-top: -1px;
+}
+
+
+
+.food-top:hover{
+    background-color: rgb(8, 217, 214);
+
+    .h2-food{
+        color: rgb(234, 234, 234);
+    }
+}
+
+
+
+
+
+
+
+.stores0{
+    width: 300px;
+    height: 100px;
+    border: 3px rgb(255, 46, 99) solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    transition: all 0.6s;
+}
+
+
+
+.h2-stores0{
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(37, 42, 52);
+    font-size: 70px;
+    transition: all 0.6s;
+    margin-top: 0px;
+}
+
+
+
+
+.stores0:hover{
+    background-color: rgb(255, 46, 99);
+
+    .h2-stores0{
+        color: rgb(234, 234, 234);
+    }
+}
+
+
+.pl{
+    margin-top: -100000px;
+    margin-left: 230px;
+    margin-bottom: 35px;
+    color: blanchedalmond;
+}
+
+
+.pll{
+    margin-top: 1000px;
+}
+
+.bi-basket-fill{
+    margin-top: 8px;
+}
+
+
+
+
+
+
+.bi-basket-fill{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+
+
+.bi-0-circle-fill{
+margin-left: -40px;
+margin-top: -3px;
+}
+
+
+
